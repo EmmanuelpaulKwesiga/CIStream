@@ -6,7 +6,7 @@ Simulates cochlear implant hearing to validate audio preprocessing quality.
 
 What it does:
   1. Generates synthetic speech-like audio + cafeteria noise at 0 dB SNR
-  2. Applies a Wiener-filter to simulate CIStream DSP preprocessing
+  2. Applies a Wiener filter to simulate CIStream DSP preprocessing
   3. Runs all three signals through a 16-channel CI vocoder
   4. Saves 6 WAV files you can listen to
   5. Reports objective metrics (SNR gain, envelope correlation, STOI)
