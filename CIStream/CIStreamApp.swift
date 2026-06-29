@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct CIStreamApp: App {
@@ -13,5 +14,6 @@ struct CIStreamApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: SessionRecord.self)
     }
 }
